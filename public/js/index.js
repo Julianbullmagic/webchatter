@@ -1,4 +1,4 @@
-const socket = io("localhost:3000");
+const socket = io("/");
 
 let isAlreadyCalling = false;
 let getCalled = false;
